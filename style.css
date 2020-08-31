@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#container{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: aquamarine;
+    justify-content: center;
+    align-content: center;
+}
+
+#grid-container{
+    display: grid;
+    background-color: aliceblue;
+
+    border: 1px solid;
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+}
+
+div{
+    border: 1px solid;
+}
